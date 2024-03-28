@@ -1,7 +1,7 @@
-import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
+import streamlit as st
 
 
 def main():
@@ -78,7 +78,7 @@ def page_skills_experience(data):
     st.write("This section highlights my skills and experience.")
 
     st.subheader("Programming Languages")
-    languages = ["Python", "SQL", "JavaScript"]
+    languages = ["Python", "SQL", "JavaScript", "Julia"]
     for lang in languages:
         st.write(f"- {lang}")
 
